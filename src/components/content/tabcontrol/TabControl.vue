@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: "",
+  name: "TabControl",
   props: {
     titles: {
       type: Array,
@@ -34,7 +34,6 @@ export default {
     itemClick: function(index) {
       // 1.改变currentIndex
       this.currentIndex = index;
-
       // 2.发出事件
       this.$emit("itemClick", index);
     }
