@@ -1,5 +1,5 @@
 <template>
-  <div class="tab-control">
+  <div class="tab-control" >
     <div
       v-for="(item, index) in titles"
       class="tab-control-item"
